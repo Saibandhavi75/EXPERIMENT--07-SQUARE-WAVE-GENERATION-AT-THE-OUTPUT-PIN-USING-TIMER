@@ -371,10 +371,10 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
+![output](https://github.com/Saibandhavi75/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/74.png?raw=true)
 ![output](https://github.com/Saibandhavi75/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/71.png?raw=true)
 ![output](https://github.com/Saibandhavi75/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/72.png?raw=true)
 ![output](https://github.com/Saibandhavi75/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/73.png?raw=true)
-![output](https://github.com/Saibandhavi75/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/74.png?raw=true)
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
@@ -382,6 +382,7 @@ void assert_failed(uint8_t *file, uint32_t line)
  
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ## FOR PULSE AT 500
+```
 Total Time Period=41ms
 TON = 2ms
 TOFF=2ms
@@ -389,7 +390,9 @@ TOTAL TIME = 4
 FREQUENCY = 1/(TOTAL TIME)
 =1/(410^-3)
 =250Hz
+```
 ## FOR PULSE AT 700
+```
 Total Time Period=3.11ms
 TON = 2.17ms
 TOFF=0.93ms
@@ -397,8 +400,9 @@ TOTAL TIME =3.1
 FREQUENCY = 1/(TOTAL TIME)
 =1/(3.110^-3)
 =322.58Hz
-
+```
 ## FOR PULSE AT 900
+```
 Total Time Period=3.21ms
 TON = 2.88
 TOFF= 0.32
@@ -406,7 +410,7 @@ TOTAL TIME = 3.2
 FREQUENCY = 1/(TOTAL TIME)
 =1/(3.210^-3)
 =312.5Hz
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
